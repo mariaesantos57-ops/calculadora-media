@@ -1,0 +1,246 @@
+* {
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+body {
+ 
+    font-family: Arial, Helvetica, sans-serif;
+
+  font-style: normal;
+
+    background: #fff8fc;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #fff8fc;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.container {
+
+    background: #f9e1ef;
+
+    width: 90%;
+
+    max-width: 650px;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+}
+
+h1 {
+
+    text-align: center;
+
+    color: #9b5b8f;
+
+    margin-bottom: 5px;
+
+}
+
+.subtitulo {
+
+    text-align: center;
+
+    color: #a8799f;
+
+    margin-bottom: 15px;
+
+}
+
+#formulario label {
+
+    display: block;
+
+    margin-top: 15px;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+
+    color: #8f6387;
+
+}
+
+input,
+
+select {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #d7a9ca;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    background: #fffaff;
+
+}
+
+input:focus,
+
+select:focus {
+
+    outline: none;
+
+    border: 1px solid #a987c5;
+
+    background: #fdf8ff;
+
+}
+
+input:valid,
+
+select:valid {
+
+    outline: none;
+
+    border: 1px solid #b8d8c0;
+
+    background-color: #f1faf4;
+
+}
+
+.notas {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 15px;
+
+}
+
+button {
+
+    width: 100%;
+
+    margin-top: 25px;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #c49acb;
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    background: #a87bb0;
+
+}
+
+#novocalculo {
+
+    background: #b6a0cc;
+
+}
+
+#novocalculo:hover {
+
+    background: #9880b1;
+
+}
+
+.resultado {
+
+    margin-top: 25px;
+
+    padding: 20px;
+
+    background: #fffaff;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    font-size: 18px;
+
+}
+
+.aprovado {
+
+    color: #75a982;
+
+    font-weight: bold;
+
+    font-size: 24px;
+
+}
+
+.recuperacao {
+
+    color: #d6a15c;
+
+    font-weight: bold;
+
+    font-size: 24px;
+
+}
+
+.reprovado {
+
+    color: #bd7181;
+
+    font-weight: bold;
+
+    font-size: 24px;
+
+}
+
+#link {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #c49acb;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+#link:hover {
+    background: #a87bb0;
+}
